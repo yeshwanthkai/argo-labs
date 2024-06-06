@@ -3,7 +3,6 @@ kind: Rollout
 metadata:
   name: vote
 spec:
-  replicas: 5
   strategy:
     blueGreen: null
     canary:
